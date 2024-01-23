@@ -1,4 +1,5 @@
 * {
+    
     overflow: hidden;
 }
 
@@ -9,14 +10,16 @@ body{
     margin: 0 auto;
     background-color:  hsl(225, 100%, 94%);
     font-family: "Red Hat Display";
-    h2 {
-        font-weight: 900;
-        color: hsl(223, 47%, 23%);
-    }
-    .info {
-        font-weight: 500;
-    }
 }
+h2 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+ .info {
+        font-weight: 500;
+}
+
 
 .container{
     position: relative;
@@ -40,30 +43,32 @@ body{
     top: 1rem;
     background-color: hsl(225, 100%, 98%);
     border: 1px solid hsl(225, 100%, 98%);
-    width: 260px;
+    width: 270px;
     height: 78px;
     margin: 0 auto;
     border-radius: 5px 5px;
-    .icon {
-        position: relative;
-        top: 10px;
-        right: 6rem;}
-    p {
-        position: relative;
-        top: -3.5rem;
-        left: -20px;
-    }
-    .bold {
-        font-weight: 700;
-    }
-    small {
-        position: relative;
-        top: -6.5rem;
-        left: 6rem;
-        color:hsl(245, 75%, 52%);
-        cursor: pointer;
-    }
 }
+
+.icon {
+    position: relative;
+    top: 10px;
+    right: 6rem;}
+.pay-text {
+    position: relative;
+    top: -3.5rem;
+    left: -20px;
+}
+.bold {
+    font-weight: 700;
+}
+small {
+    position: relative;
+    top: -6.5rem;
+    left: 6rem;
+    color:hsl(245, 75%, 52%);
+    cursor: pointer;
+}
+
 
 .pay {
     position: relative;
