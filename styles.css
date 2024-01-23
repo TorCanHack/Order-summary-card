@@ -1,0 +1,102 @@
+* {
+    overflow: hidden;
+}
+
+body{
+    width: 375px;
+    height: 100vh;
+    font-size: 16px;
+    margin: 0 auto;
+    background-color:  hsl(225, 100%, 94%);
+    font-family: "Red Hat Display";
+    h2 {
+        font-weight: 900;
+        color: hsl(223, 47%, 23%);
+    }
+    .info {
+        font-weight: 500;
+    }
+}
+
+.container{
+    position: relative;
+    top: -9rem;
+    border: 1px solid white;
+    border-radius: 12px 12px;
+    height: 600px;
+    width: 360px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    
+}
+.bg-image{
+    width: 360px;
+    height: 165px;
+}
+
+.payment-plan {
+    position: relative;
+    top: 1rem;
+    background-color: hsl(225, 100%, 98%);
+    border: 1px solid hsl(225, 100%, 98%);
+    width: 260px;
+    height: 78px;
+    margin: 0 auto;
+    border-radius: 5px 5px;
+    .icon {
+        position: relative;
+        top: 10px;
+        right: 6rem;}
+    p {
+        position: relative;
+        top: -3.5rem;
+        left: -20px;
+    }
+    .bold {
+        font-weight: 700;
+    }
+    small {
+        position: relative;
+        top: -6.5rem;
+        left: 6rem;
+        color:hsl(245, 75%, 52%);
+        cursor: pointer;
+    }
+}
+
+.pay {
+    position: relative;
+    bottom: -3rem;
+    display: block;
+    width: 300px;
+    height: 65px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 9px 9px;
+    cursor: pointer;
+}
+.cancel {
+    position: relative;
+    bottom: -4rem;
+    display: block;
+    width: 300px;
+    height: 55px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 auto;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 600px) {
+    body{
+        background-image: url("/Users/ayua/Downloads/order-summary-component-main/images/pattern-background-desktop.svg");
+        background-repeat: no-repeat;
+    }
+    
+}
