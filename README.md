@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](Screenshot 2024-01-23 at 01-07-16 Frontend Mentor Order summary card.png)
+![](https://github.com/TorCanHack/Order-summary-card/blob/main/Screenshot%202024-01-23%20at%2001-07-16%20Frontend%20Mentor%20Order%20summary%20card.png)
 
 ### Links
 
